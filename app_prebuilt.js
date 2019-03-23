@@ -131,6 +131,116 @@ var defaultFill = new ol.style.Fill({
                         return allStyles;
                     };
 
+                    var textStyleCache_st1_21932_waterextent_tetezambeziaprovinces={}
+                    var clusterStyleCache_st1_21932_waterextent_tetezambeziaprovinces={}
+                    var style_st1_21932_waterextent_tetezambeziaprovinces = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}),
+                        fill: new ol.style.Fill({color: "rgba(156,39,106,1.0)"})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_st1_21932_waterextent_tetezambeziaprovinces = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}),
+                        fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+
+                    var textStyleCache_hotosm_settlement={}
+                    var clusterStyleCache_hotosm_settlement={}
+                    var style_hotosm_settlement = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(15,4,207,1.0)"})})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_hotosm_settlement = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+
+                    var textStyleCache_hotosm_health={}
+                    var clusterStyleCache_hotosm_health={}
+                    var style_hotosm_health = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(129,225,69,1.0)"})})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_hotosm_health = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+
+                    var textStyleCache_hotosm_poi={}
+                    var clusterStyleCache_hotosm_poi={}
+                    var style_hotosm_poi = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(10,93,131,1.0)"})})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_hotosm_poi = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            image: new ol.style.Circle({radius: 3.8, stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0}), fill: new ol.style.Fill({color: "rgba(255, 204, 0, 1)"})})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+
                     var textStyleCache_mozambique_osm2={}
                     var clusterStyleCache_mozambique_osm2={}
                     var style_mozambique_osm2 = function(feature, resolution){
@@ -146,6 +256,33 @@ var defaultFill = new ol.style.Fill({
                         return allStyles;
                     };
                     var selectionStyle_mozambique_osm2 = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            stroke: new ol.style.Stroke({color: "rgba(255, 204, 0, 1)", lineDash: null, width: 0})
+                        })
+                        ]
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+
+                    var textStyleCache_moz_trs_roadaccessconstraints_wfp={}
+                    var clusterStyleCache_moz_trs_roadaccessconstraints_wfp={}
+                    var style_moz_trs_roadaccessconstraints_wfp = function(feature, resolution){
+                        
+                        var value = "";
+                        var style = [ new ol.style.Style({
+                            stroke: new ol.style.Stroke({color: "rgba(85,205,229,1.0)", lineDash: null, width: 0})
+                        })
+                        ];
+                        var allStyles = [];
+                        
+                        allStyles.push.apply(allStyles, style);
+                        return allStyles;
+                    };
+                    var selectionStyle_moz_trs_roadaccessconstraints_wfp = function(feature, resolution){
                         
                         var value = "";
                         var style = [ new ol.style.Style({
@@ -260,6 +397,70 @@ var lyr_st1_219313_waterextent_sofalaprovince = new ol.layer.Vector({
 st1_219313_waterextent_sofalaprovince_geojson_callback = function(geojson) {
                               lyr_st1_219313_waterextent_sofalaprovince.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
+var lyr_st1_21932_waterextent_tetezambeziaprovinces = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_st1_21932_waterextent_tetezambeziaprovinces,
+                    selectedStyle: selectionStyle_st1_21932_waterextent_tetezambeziaprovinces,
+                    title: "ST1_20190320_WaterExtent_TeteZambeziaProvinces",
+                    id: "ST1_20190320_WaterExtent_TeteZambeziaProvinces20190322205701741",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+st1_21932_waterextent_tetezambeziaprovinces_geojson_callback = function(geojson) {
+                              lyr_st1_21932_waterextent_tetezambeziaprovinces.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
+var lyr_hotosm_settlement = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_hotosm_settlement,
+                    selectedStyle: selectionStyle_hotosm_settlement,
+                    title: "hotosm_settlement",
+                    id: "hotosm_settlement20190322211237447",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+hotosm_settlement_geojson_callback = function(geojson) {
+                              lyr_hotosm_settlement.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
+var lyr_hotosm_health = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_hotosm_health,
+                    selectedStyle: selectionStyle_hotosm_health,
+                    title: "hotosm_health",
+                    id: "hotosm_health20190322211216526",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+hotosm_health_geojson_callback = function(geojson) {
+                              lyr_hotosm_health.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
+var lyr_hotosm_poi = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_hotosm_poi,
+                    selectedStyle: selectionStyle_hotosm_poi,
+                    title: "hotosm_poi",
+                    id: "hotosm_poi20190322211202245",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+hotosm_poi_geojson_callback = function(geojson) {
+                              lyr_hotosm_poi.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
 var lyr_mozambique_osm2 = new ol.layer.Vector({
                     opacity: 1.0,
                     source: new ol.source.Vector(),
@@ -276,22 +477,45 @@ var lyr_mozambique_osm2 = new ol.layer.Vector({
 mozambique_osm2_geojson_callback = function(geojson) {
                               lyr_mozambique_osm2.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
                         };
+var lyr_moz_trs_roadaccessconstraints_wfp = new ol.layer.Vector({
+                    opacity: 1.0,
+                    source: new ol.source.Vector(),
+                     
+                    style: style_moz_trs_roadaccessconstraints_wfp,
+                    selectedStyle: selectionStyle_moz_trs_roadaccessconstraints_wfp,
+                    title: "moz_trs_roadaccessconstraints_wfp",
+                    id: "moz_trs_roadaccessconstraints_wfp20190322205352138",
+                    filters: [],
+                    timeInfo: null,
+                    isSelectable: true,
+                    popupInfo: ""
+                });
+moz_trs_roadaccessconstraints_wfp_geojson_callback = function(geojson) {
+                              lyr_moz_trs_roadaccessconstraints_wfp.getSource().addFeatures(new ol.format.GeoJSON().readFeatures(geojson));
+                        };
 
-lyr_caltitude.setVisible(true);
-lyr_clandcover.setVisible(true);
+lyr_caltitude.setVisible(false);
+lyr_clandcover.setVisible(false);
 lyr_st1_21932_waterextent_sofalaprovince.setVisible(true);
-lyr_st1_219319_waterextent_sofalaprovince.setVisible(true);
-lyr_st1_219314_waterextent_sofalaprovince.setVisible(true);
-lyr_st1_219313_waterextent_sofalaprovince.setVisible(true);
-lyr_mozambique_osm2.setVisible(true);
-var layersList = [lyr_caltitude,lyr_clandcover,lyr_st1_21932_waterextent_sofalaprovince,lyr_st1_219319_waterextent_sofalaprovince,lyr_st1_219314_waterextent_sofalaprovince,lyr_st1_219313_waterextent_sofalaprovince,lyr_mozambique_osm2];layersList.push(overlaysGroup);
+lyr_st1_219319_waterextent_sofalaprovince.setVisible(false);
+lyr_st1_219314_waterextent_sofalaprovince.setVisible(false);
+lyr_st1_219313_waterextent_sofalaprovince.setVisible(false);
+lyr_st1_21932_waterextent_tetezambeziaprovinces.setVisible(true);
+lyr_hotosm_settlement.setVisible(false);
+lyr_hotosm_health.setVisible(true);
+lyr_hotosm_poi.setVisible(false);
+lyr_mozambique_osm2.setVisible(false);
+lyr_moz_trs_roadaccessconstraints_wfp.setVisible(true);
+var layersList = [lyr_caltitude,lyr_clandcover,lyr_st1_21932_waterextent_sofalaprovince,lyr_st1_219319_waterextent_sofalaprovince,lyr_st1_219314_waterextent_sofalaprovince,lyr_st1_219313_waterextent_sofalaprovince,lyr_st1_21932_waterextent_tetezambeziaprovinces,lyr_hotosm_settlement,lyr_hotosm_health,lyr_hotosm_poi,lyr_mozambique_osm2,lyr_moz_trs_roadaccessconstraints_wfp];layersList.push(overlaysGroup);
 var view = new ol.View({ maxZoom: 32, minZoom: 1, projection: 'EPSG:3857'});
-var originalExtent = [3583440.996105, -2423411.568200, 4139496.026915, -2027975.961311];
+var originalExtent = [3651868.688615, -2333807.444541, 3948312.988147, -2122981.412263];
 
 var map = new ol.Map({
   layers: layersList,
   view: view,
-  controls: []
+  controls: [new ol.control.ScaleLine({"minWidth": 64, "units": "metric"}),
+new ol.control.Rotate({autoHide: false}),
+new ol.control.MousePosition({"projection": "EPSG:4326", "undefinedHTML": "&nbsp;", "coordinateFormat": ol.coordinate.createStringXY(4)})]
 });
 
 
@@ -337,6 +561,8 @@ var BasicApp = React.createClass({
     var options = [{text: 'Table', icon: 'list-alt', onClick: this._toggleTable.bind(this)},
 {text: 'Query', icon: 'filter', onClick: this._toggleQuery.bind(this)},
 {jsx: React.createElement(Measure, {toggleGroup:'navigation', map:map})},
+{text: 'Help', icon: 'help', onClick: function(){window.open('help/help.html','_blank')}},
+{jsx: React.createElement(ImageExport, {map:map})},
 {
                               jsx: React.createElement(Select, {toggleGroup: 'navigation', map:map})
                             }, {
@@ -344,7 +570,7 @@ var BasicApp = React.createClass({
                               icon: 'hand-paper-o',
                               onClick: this._navigationFunc.bind(this)
                             },
-{exclude: true, jsx: React.createElement("a", {className:"navbar-brand", href:"#"}, "Mozambique")}];
+{exclude: true, jsx: React.createElement("a", {className:"navbar-brand", href:"#"}, "Mozambique Flood 2019")}];
     return React.createElement("article", null,
       React.createElement(Toolbar, {options: options}
       ),
